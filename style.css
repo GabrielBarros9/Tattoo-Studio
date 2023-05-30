@@ -1,0 +1,179 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #EE5803;
+}
+
+/* Estilos do banner */
+#banner {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+#banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Estilos do portfólio */
+#portfolio {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.carousel {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+
+.carousel-inner {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Mantém a proporção da imagem */
+}
+
+#portfolio h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos dos artistas */
+#artists {
+  padding: 40px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.card-content {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.image-container {
+  margin: 20px;
+  transition: transform 0.5s;
+  width: auto;
+  height: auto;
+}
+
+.image-container:hover {
+  transform: scale(1.3);
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 100%;
+}
+
+#artists h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* Estilos do formulário de contato */
+#contact {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
